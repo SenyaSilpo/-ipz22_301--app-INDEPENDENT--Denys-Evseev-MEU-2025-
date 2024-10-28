@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вивчення HTML</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Посилання на CSS -->
+</head>
+<body>
+    <header>
+        <h1>Самостійна робота 1</h1>
+    </header>
+
+    <main>
+        <!-- Розділ: Що таке HTML -->
+        <section id="html_intro">
+            <h2>1.1 Що таке HTML?</h2>
+            <p>HTML (HyperText Markup Language) – це стандартна розмітка веб-сторінок, що використовується для створення та оформлення контенту на сайтах. HTML описує структуру веб-документів, використовуючи теги.</p>
+        </section>
+
+        <!-- Розділ: HTML Редактори коду -->
+        <section id="html_editors">
+            <h2>1.2 HTML Редактори коду</h2>
+            <p>Для написання HTML коду використовують редактори тексту або IDE (інтегровані середовища розробки). Популярні редактори включають:</p>
+            <ul>
+                <li>Visual Studio Code</li>
+                <li>Notepad++</li>
+                <li>Sublime Text</li>
+                <li>Atom</li>
+            </ul>
+        </section>
+
+        <!-- Розділ: HTML Основні приклади -->
+        <section id="html_examples">
+            <h2>1.3 HTML Основні приклади</h2>
+            <p>Ось простий приклад HTML документа:</p>
+            <pre>
+                <code>
+                    &lt;!DOCTYPE html&gt;
+                    &lt;html&gt;
+                    &lt;head&gt;
+                        &lt;title&gt;Моя перша сторінка&lt;/title&gt;
+                    &lt;/head&gt;
+                    &lt;body&gt;
+                        &lt;h1&gt;Привіт, світ!&lt;/h1&gt;
+                    &lt;/body&gt;
+                    &lt;/html&gt;
+                </code>
+            </pre>
+        </section>
+
+        <!-- Розділ: HTML Елементи -->
+        <section id="html_elements">
+            <h2>1.4 HTML Елементи</h2>
+            <p>HTML елементи складаються з тегів, які можуть містити текст, зображення та інші медіа. Наприклад:</p>
+            <pre>
+                <code>
+                    &lt;p&gt;Це параграф.&lt;/p&gt;
+                    &lt;h1&gt;Це заголовок.&lt;/h1&gt;
+                </code>
+            </pre>
+        </section>
+
+        <!-- Розділ: HTML Атрибути -->
+        <section id="html_attributes">
+            <h2>1.5 HTML Атрибути</h2>
+            <p>Атрибути надають додаткову інформацію про HTML елементи. Вони розміщуються всередині тега:</p>
+            <pre>
+                <code>
+                    &lt;a href="https://example.com"&gt;Це посилання&lt;/a&gt;
+                </code>
+            </pre>
+        </section>
+
+        <!-- Розділ: HTML Параграфи -->
+        <section id="html_paragraphs">
+            <h2>1.6 HTML Параграфи</h2>
+            <p>Параграфи в HTML створюються за допомогою тегу &lt;p&gt;:</p>
+            <pre>
+                <code>
+                    &lt;p&gt;Це приклад параграфа.&lt;/p&gt;
+                </code>
+            </pre>
+        </section>
+
+        <!-- Розділ: HTML Посилання -->
+        <section id="html_links">
+            <h2>1.7 HTML Посилання</h2>
+            <p>Посилання створюються за допомогою тегу &lt;a&gt;:</p>
+            <pre>
+                <code>
+                    &lt;a href="https://example.com"&gt;Відвідайте наш сайт&lt;/a&gt;
+                </code>
+            </pre>
+            <p>Ось робочий приклад посилання:</p>
+            <p><a href="https://www.wikipedia.org" target="_blank">Відвідайте Wikipedia</a></p>
+        </section>
+
+        <!-- Розділ: HTML Зображення -->
+        <section id="html_images">
+            <h2>1.8 HTML Зображення</h2>
+            <p>Зображення вставляються за допомогою тегу &lt;img&gt;:</p>
+            <pre>
+                <code>
+                    &lt;img src="image.jpg" alt="Опис зображення"&gt;
+                </code>
+            </pre>
+            <img src="photo3.jfif" alt="Опис зображення" width="200">
+        </section>
+
+        <!-- Розділ: HTML Таблиці -->
+        <section id="html_tables">
+            <h2>1.9 HTML Таблиці</h2>
+            <p>Таблиці в HTML створюються за допомогою тегів &lt;table&gt;, &lt;tr&gt;, &lt;td&gt;:</p>
+            <pre>
+                <code>
+                    &lt;table&gt;
+                        &lt;tr&gt;
+                            &lt;th&gt;Заголовок 1&lt;/th&gt;
+                            &lt;th&gt;Заголовок 2&lt;/th&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;td&gt;Дані 1&lt;/td&gt;
+                            &lt;td&gt;Дані 2&lt;/td&gt;
+                        &lt;/tr&gt;
+                    &lt;/table&gt;
+                </code>
+            </pre>
+            <table border="1">
+                <caption>Приклад таблиці</caption>
+                <thead>
+                    <tr>
+                        <th>Заголовок 1</th>
+                        <th>Заголовок 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Дані 1</td>
+                        <td>Дані 2</td>
+                    </tr>
+                    <tr>
+                        <td>Дані 3</td>
+                        <td>Дані 4</td>
+                    </tr>
+                    <tr>
+                        <td>Дані 5</td>
+                        <td>Дані 6</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Розділ: HTML Списки -->
+        <section id="html_lists">
+            <h2>1.10 HTML Списки</h2>
+            <p>Списки можуть бути упорядкованими та невпорядкованими:</p>
+            <h3>Упорядкований список:</h3>
+            <pre>
+                <code>
+                    &lt;ol&gt;
+                        &lt;li&gt;Перше елемент&lt;/li&gt;
+                        &lt;li&gt;Друге елемент&lt;/li&gt;
+                    &lt;/ol&gt;
+                </code>
+            </pre>
+            <ol>
+                <li>Перше елемент</li>
+                <li>Друге елемент</li>
+                <li>Третє елемент</li>
+            </ol>
+            <h3>Невпорядкований список:</h3>
+            <pre>
+                <code>
+                    &lt;ul&gt;
+                        &lt;li&gt;Перше елемент&lt;/li&gt;
+                        &lt;li&gt;Друге елемент&lt;/li&gt;
+                    &lt;/ul&gt;
+                </code>
+            </pre>
+            <ul>
+                <li>Перше елемент</li>
+                <li>Друге елемент</li>
+                <li>Третє елемент</li>
+            </ul>
+        </section>
+
+        <!-- Розділ: HTML Форми -->
+        <section id="html_forms">
+            <h2>2.1 HTML Форми</h2>
+            <p>Форми використовуються для збору інформації від користувачів. Ось приклади:</p>
+
+            <!-- Проста форма -->
+            <h3>Проста форма</h3>
+            <form action="/submit" method="post">
+                <label for="name">Ім'я:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+
+                <label for="email">Електронна адреса:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+
+                <input type="submit" value="Надіслати">
+            </form>
+
+            <h3>Форма з вибором статі</h3>
+            <form action="/submit" method="post">
+                <label>Стать:</label>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Чоловік</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Жінка</label>
+                <br>
+
+                <input type="submit" value="Надіслати">
+            </form>
+
+            <h3>Випадковий список</h3>
+            <form action="/submit" method="post">
+                <label for="country">Країна:</label>
+                <select id="country" name="country">
+                    <option value="ukraine">Україна</option>
+                    <option value="poland">Польща</option>
+                    <option value="usa">США</option>
+                    <option value="germany">Німеччина</option>
+                </select>
+                <br>
+
+                <input type="submit" value="Надіслати">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Вивчення HTML</p>
+    </footer>
+</body>
+</html>
